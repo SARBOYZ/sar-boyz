@@ -18,3 +18,19 @@ h1 {
 main {
   padding: 30px;
 }
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.categories div {
+  background: white;
+  padding: 25px;
+  width: 120px;
+  border-radius: 15px;
+  font-size: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
